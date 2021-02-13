@@ -5,7 +5,7 @@ This is my first SQL project using pgAdmin4 and PostgreSQL 13.
 ReadMe File
 ================
 
-Updated: February 12, 2021 | Created: February 11, 2021
+Updated: February 13, 2021 | Created: February 11, 2021
 Copyright: open source
 
 == License ===========================
@@ -22,7 +22,7 @@ Applications used for the SQL_challenge:
 - GitBash terminal
 - Visual Studio Code for the Readme.md
 - Git Hub (to save versions and share code while in development)
-- Google Diagrams.net
+- Quick Database Diagrams (URL below)
 - Image viewer such as Microsoft Photos or Microsoft Paint
 
 
@@ -59,6 +59,8 @@ Play/run all rows in order from top to bottom to review code output and data ana
 
 == Additional Resources =======================
 
+I used the quick Database Diagrams free app on Windows to create entity relationship diagram (ERD)
+https://app.quickdatabasediagrams.com/.
 
 
 
@@ -87,6 +89,7 @@ Resources used to build and troubleshoot this code are listed below, in addition
 Web URLs:
 https://cloud.google.com/spanner/docs/foreign-keys/how-to
 https://en.wikipedia.org/wiki/Composite_key
+https://app.quickdatabasediagrams.com/
 
 
 
