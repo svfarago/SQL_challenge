@@ -1,11 +1,11 @@
 # SQL_challenge
-This is my first SQL project using pgAdmin4.
+This is my first SQL project using pgAdmin4 and PostgreSQL 13.
 
 ================
 ReadMe File
 ================
 
-Updated: February 11, 2021 | Created: February 11, 2021
+Updated: February 12, 2021 | Created: February 11, 2021
 Copyright: open source
 
 == License ===========================
@@ -18,18 +18,19 @@ None. See Installation instructions below for a list of applications.
 
 == Installation Instructions ==========
 Applications used for the SQL_challenge:
-- Jupyter Notebook
+- pgAdmin4
 - GitBash terminal
 - Visual Studio Code for the Readme.md
 - Git Hub (to save versions and share code while in development)
+- Google Diagrams.net
 - Image viewer such as Microsoft Photos or Microsoft Paint
-- Various dependencies and setups were required as part of pip, Jupyter Notebook. See "Dependencies and Setup" at the top of each Jupyter Notebook for a list of dependencies.
+
 
 Similar applications may also work.
 
 
 == Operating Instructions =============
-Open either the WeatherPy or VacationPy file in xxx
+Open xxx file in xxx.
 Review Analysis at the top of the notebook.
 Play/run all rows in order from top to bottom to review code output and data analysis.
 
@@ -37,14 +38,20 @@ Play/run all rows in order from top to bottom to review code output and data ana
 
 == List of Files ====================
 \SQL_challenge
-    \output_data
-        xxx.csv
+    \EmployeeSQL
+        query.sql
+        SQL_ERD.png
 
-    \VacationPy
-        .ipynb_checkpoints
-        WeatherPy.ipynb
+    \Data
+        departments.csv
+        dept_emp.csv
+        dept_manager.csv
+        employees.csv
+        salaries.csv
+        titles.csv
+    Employee_SQL
     README.md
-
+    .ipynb_checkpoints
 
 == Data Set(s) =======================
 
@@ -74,16 +81,16 @@ None.
 
 
 
-
 Resources used to build and troubleshoot this code are listed below, in addition to help and code peer review from students, instructor, and TA's.
 
 
 Web URLs:
+https://cloud.google.com/spanner/docs/foreign-keys/how-to
+https://en.wikipedia.org/wiki/Composite_key
 
 
 
-
-URLs last used: February 11, 2021
+URLs last used: February 12, 2021
 
 
 
@@ -93,5 +100,5 @@ Colorado   United States
 
 
 == Random Notes ===============
-This is my first Pandas project using APIs and mapping within a Jupyter Notebook.
+This is my first SQL project using pgAdmin4 and PostgreSQL 13.
 Time to complete: approximately 22 hours
