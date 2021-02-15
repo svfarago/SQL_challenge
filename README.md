@@ -5,7 +5,7 @@ This is my first SQL project using pgAdmin4 and PostgreSQL 13.
 ReadMe File
 ================
 
-Updated: February 13, 2021 | Created: February 11, 2021
+Updated: February 15, 2021 | Created: February 11, 2021
 Copyright: open source
 
 == License ===========================
@@ -39,8 +39,9 @@ Play/run all rows in order from top to bottom to review code output and data ana
 == List of Files ====================
 \SQL_challenge
     \EmployeeSQL
-        query.sql
-        SQL_ERD.png
+        emp_query.sql
+        emp_analysis.sql
+        ERD_schema.png
 
     \Data
         departments.csv
@@ -90,10 +91,11 @@ Web URLs:
 https://cloud.google.com/spanner/docs/foreign-keys/how-to
 https://en.wikipedia.org/wiki/Composite_key
 https://app.quickdatabasediagrams.com/
+https://www.c-sharpcorner.com/blogs/sql-query-to-find-out-the-frequency-of-each-element-in-a-column1
 
 
 
-URLs last used: February 12, 2021
+URLs last used: February 15, 2021
 
 
 
