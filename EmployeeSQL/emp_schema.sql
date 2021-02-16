@@ -9,6 +9,7 @@ DROP TABLE IF EXISTS dept_manager;
 DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS titles;
 
+
 -- Create all tables using export from Quick DBD
 
 CREATE TABLE "employees" (
@@ -24,7 +25,7 @@ CREATE TABLE "employees" (
      )
 );
 
-
+-- Data would not import when specifying a PK, so removed from code.
 CREATE TABLE "dept_emp" (
     "emp_no" INT NOT NULL,
     "dept_no" VARCHAR NOT NULL
@@ -39,6 +40,7 @@ CREATE TABLE "salaries" (
      )
 );
 
+-- Data would not import when specifying a PK, so removed from code.
 CREATE TABLE "dept_manager" (
     "dept_no" VARCHAR NOT NULL,
     "emp_no" INT NOT NULL
@@ -60,14 +62,15 @@ CREATE TABLE "titles" (
         "title_id"
      )
 );
---POTATO - why wouldn't I just put the foreign key and references in each table above?
---If I do so, will I have to drop, rebuild, and reimport?
 
 
 ALTER TABLE "employees" ADD CONSTRAINT "fk_employees_emp_title_id" FOREIGN KEY("emp_title_id")
 REFERENCES "titles" ("title_id");
 
 ALTER TABLE "dept_emp" ADD CONSTRAINT "fk_dept_emp_emp_no" FOREIGN KEY("emp_no")
+REFERENCES "employees" ("emp_no");
+
+ALTER TABLE "dept_emp" ADD CONSTRAINT "fk_dept_emp_dept_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
 
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp_no" FOREIGN KEY("emp_no")
@@ -78,12 +81,6 @@ REFERENCES "departments" ("dept_no");
 
 ALTER TABLE "dept_manager" ADD CONSTRAINT "fk_dept_manager_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
-
---ALTER TABLE "departments" ADD CONSTRAINT "fk_departments_dept_no" FOREIGN KEY("dept_no")
---REFERENCES "dept_emp" ("dept_no");
-
---ALTER TABLE "titles" ADD CONSTRAINT "fk_titles_title_id" FOREIGN KEY("title_id")
---REFERENCES "employees" ("emp_title_id");
 
 
 -- View data in tables  to ensure import worked properly
