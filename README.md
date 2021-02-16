@@ -1,22 +1,22 @@
 # SQL_challenge
-This is my first SQL project using pgAdmin4 and PostgreSQL 13.
+* This is my first SQL project using pgAdmin4 and PostgreSQL 13.
 
 
 ## ReadMe File
-Updated: February 15, 2021 | Created: February 11, 2021
-Copyright: open source
+* Updated: February 15, 2021 | Created: February 11, 2021
+* Copyright: open source
 
 ###== License ===========================
-None. See Installation instructions below for a list of applications.
+* None. See Installation instructions below for a list of applications.
 
 
 ###== Configuration Instructions ========
-Configure PGAdmin with database admin userID and password. This will apply to local databases.
-This may impact the abilty to run SQL queries in this project.
+* Configure PGAdmin with database admin userID and password. This will apply to local databases.
+* This may impact the abilty to run SQL queries in this project.
 
 
 ###== Installation Instructions ==========
-Applications used for the SQL_challenge:
+* Applications used for the SQL_challenge:
 - pgAdmin4
 - PostgreSQL 13
 - GitBash terminal
