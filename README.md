@@ -1,23 +1,21 @@
 # SQL_challenge
 This is my first SQL project using pgAdmin4 and PostgreSQL 13.
 
-================
-ReadMe File
-================
 
+## ReadMe File
 Updated: February 15, 2021 | Created: February 11, 2021
 Copyright: open source
 
-== License ===========================
+###== License ===========================
 None. See Installation instructions below for a list of applications.
 
 
-== Configuration Instructions ========
+###== Configuration Instructions ========
 Configure PGAdmin with database admin userID and password. This will apply to local databases.
 This may impact the abilty to run SQL queries in this project.
 
 
-== Installation Instructions ==========
+###== Installation Instructions ==========
 Applications used for the SQL_challenge:
 - pgAdmin4
 - PostgreSQL 13
@@ -30,7 +28,7 @@ Applications used for the SQL_challenge:
 Similar applications may also work.
 
 
-== List of Files ====================
+###== List of Files ====================
 \SQL_challenge
     \EmployeeSQL
         emp_analysis.sql
@@ -46,16 +44,16 @@ Similar applications may also work.
     README.md
     .ipynb_checkpoints
 
-== Operating Instructions =============
+###== Operating Instructions =============
 Open ERD_schema.png file to view entity relationship diagram.
 Open emp_schema.sql file to view database schema setup.
 Open emp_analysis.sql file and run numbered sections of SQL to view data query output.
 
-== Data Set(s) =======================
+###== Data Set(s) =======================
 See "List of Files" section above for list of .csv files associated with this project.
 
 
-== Additional Resources =======================
+###== Additional Resources =======================
 I used the quick Database Diagrams free app on Windows to create entity relationship diagram (ERD)
 https://app.quickdatabasediagrams.com/.
 
