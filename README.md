@@ -30,9 +30,9 @@
 ### List of Files ====================
 * \SQL_challenge
 *    \EmployeeSQL
--        emp_analysis.sql
--        emp_schema.sql
--        ERD_schema.png
+        emp_analysis.sql
+        emp_schema.sql
+        ERD_schema.png
 *    \Data
 -        departments.csv
 -        dept_emp.csv
