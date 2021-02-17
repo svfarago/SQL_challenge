@@ -18,6 +18,7 @@
 * Applications used for the SQL_challenge:
 - pgAdmin4
 - PostgreSQL 13
+- Jupyter Notebook to read Pandas Dataframes import
 - GitBash terminal
 - Visual Studio Code for the Readme.md
 - Git Hub (to save versions and share code while in development)
@@ -26,6 +27,9 @@
 
 * Similar applications may also work.
 
+* May need to install dependencies for pgAdmin and Postgres to work with Jupyter Notebook. From a command line, run:
+- pip install psycopg2 -or- pip install psycopg2 sqlalchemy
+
 
 ### List of Files ====================
 * \SQL_challenge
@@ -33,6 +37,8 @@
 -        emp_analysis.sql
 -        emp_schema.sql
 -        ERD_schema.png
+-        config.py
+-        .gitignore
 *    \Data
 -        departments.csv
 -        dept_emp.csv
@@ -43,10 +49,13 @@
 *    README.md
 
 
+
 ### Operating Instructions =============
 * Open ERD_schema.png file to view entity relationship diagram.
 * Open emp_schema.sql file to view database schema setup.
 * Open emp_analysis.sql file and run numbered sections of SQL to view data query output.
+* Bonus: Open emp_analysis_pandas.ipynb in Jupyter Notebook to read Pandas Dataframes import and analysis.
+* Note: You may need a password to access the Postgres database.
 
 ### Data Set(s) =======================
 * See "List of Files" section above for list of .csv files associated with this project.
@@ -78,7 +87,7 @@ https://app.quickdatabasediagrams.com/.
 - https://en.wikipedia.org/wiki/Composite_key
 - https://app.quickdatabasediagrams.com/
 - https://www.c-sharpcorner.com/blogs/sql-query-to-find-out-the-frequency-of-each-element-in-a-column1
-
+- https://towardsdatascience.com/python-and-postgresql-how-to-access-a-postgresql-database-like-a-data-scientist-b5a9c5a0ea43
 
 * URLs last used: February 15, 2021
 

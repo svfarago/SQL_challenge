@@ -10,7 +10,7 @@ DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS titles;
 
 
--- Create all tables using export from Quick DBD
+-- Create all tables using export from Quick DBD; adjust if needed
 
 CREATE TABLE "employees" (
     "emp_no" int NOT NULL,
@@ -25,7 +25,6 @@ CREATE TABLE "employees" (
      )
 );
 
--- Data would not import when specifying a PK, so removed from code.
 CREATE TABLE "dept_emp" (
     "emp_no" INT NOT NULL,
     "dept_no" VARCHAR NOT NULL
@@ -40,7 +39,7 @@ CREATE TABLE "salaries" (
      )
 );
 
--- Data would not import when specifying a PK, so removed from code.
+
 CREATE TABLE "dept_manager" (
     "dept_no" VARCHAR NOT NULL,
     "emp_no" INT NOT NULL
