@@ -2,7 +2,7 @@
 * This is my first SQL project using pgAdmin4 and PostgreSQL 13.
 
 ## ReadMe File
-* Updated: February 15, 2021 | Created: February 11, 2021
+* Updated: February 17, 2021 | Created: February 11, 2021
 * Copyright: open source
 
 ### License ===========================
@@ -27,8 +27,7 @@
 
 * Similar applications may also work.
 
-* May need to install dependencies for pgAdmin and Postgres to work with Jupyter Notebook. From a command line, run:
-- pip install psycopg2 -or- pip install psycopg2 sqlalchemy
+* May need to install dependencies for pgAdmin and Postgres to work with Jupyter Notebook. From a command line, run: pip install psycopg2 -or- pip install psycopg2 sqlalchemy
 
 
 ### List of Files ====================
@@ -38,7 +37,14 @@
 -        emp_schema.sql
 -        ERD_schema.png
 -        config.py
+-        emp_analysis_pandas.ipynb
 -        .gitignore
+-        \Images
+            Salary_By_Title.png
+            Salary_Ranges_Employees.png
+         \.ipynb_checkpoints
+            emp_analysis_pandas-checkpoint.ipynb   
+        \__pycache__
 *    \Data
 -        departments.csv
 -        dept_emp.csv
@@ -47,15 +53,15 @@
 -        salaries.csv
 -        titles.csv
 *    README.md
-
+*    README_SQL_Instructions
 
 
 ### Operating Instructions =============
 * Open ERD_schema.png file to view entity relationship diagram.
 * Open emp_schema.sql file to view database schema setup.
 * Open emp_analysis.sql file and run numbered sections of SQL to view data query output.
-* Bonus: Open emp_analysis_pandas.ipynb in Jupyter Notebook to read Pandas Dataframes import and analysis.
 * Note: You may need a password to access the Postgres database.
+* Bonus: Open emp_analysis_pandas.ipynb in Jupyter Notebook to read Pandas Dataframes import and analysis.
 
 ### Data Set(s) =======================
 * See "List of Files" section above for list of .csv files associated with this project.
@@ -64,7 +70,6 @@
 ### Additional Resources =======================
 * I used the quick Database Diagrams free app on Windows to create entity relationship diagram (ERD)
 https://app.quickdatabasediagrams.com/.
-
 
 
 ###  Data Alterations =======================
@@ -88,8 +93,9 @@ https://app.quickdatabasediagrams.com/.
 - https://app.quickdatabasediagrams.com/
 - https://www.c-sharpcorner.com/blogs/sql-query-to-find-out-the-frequency-of-each-element-in-a-column1
 - https://towardsdatascience.com/python-and-postgresql-how-to-access-a-postgresql-database-like-a-data-scientist-b5a9c5a0ea43
+- https://htmlcolorcodes.com/
 
-* URLs last used: February 15, 2021
+* URLs last used: February 17, 2021
 
 
 ###  Contact Information ===============
@@ -98,4 +104,4 @@ Colorado   United States
 
 ### Random Notes ===============
 This is my first SQL project using pgAdmin4 and PostgreSQL 13.
-Time to complete: approximately 14 hours
+Time to complete: approximately 18 hours
